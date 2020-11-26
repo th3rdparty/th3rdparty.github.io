@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 repository: th3rdparty/th3rdparty.github.io
 
@@ -61,8 +61,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Th3rd Party  # your blog must have a name for it to show up in the nav bar
+blog_description: There's more than one choice
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -70,7 +70,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: th3rdpart # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
