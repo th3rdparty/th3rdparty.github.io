@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 # Run this script to deploy the app to Github Pages
 
 # Parse cmd arguments
