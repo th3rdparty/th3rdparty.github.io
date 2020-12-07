@@ -88,11 +88,12 @@ rm -R _site/
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push -f -q origin $DEPLOY_BRANCH
+# git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
 
-echo "Deployed successfully!"
+echo "Run the following command to finish deploying!"
+echo "  git push -f -q origin $DEPLOY_BRANCH"
 
 exit 0

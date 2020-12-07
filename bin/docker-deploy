@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run -ti -v $(pwd):/apps -p 4000:4000 --user $(id -u):$(id -g) bundler ./bin/deploy --user
+
